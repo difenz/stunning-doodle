@@ -1,6 +1,6 @@
 @font-face {
     font-family: "SF Pro";
-    src: url("/src/SFProDisplay-Regular.ttf");
+    src: url("./src/SFProDisplay-Regular.ttf");
   }
 
 body {
@@ -130,7 +130,7 @@ li {
 
 .side-menu li::before {
     opacity: 0%;
-    content: url("/src/img/whitearrow.svg");
+    content: url("./src/img/whitearrow.svg");
     display: inline-block;
     transform: translateX(-200%);
     transition: opacity .4s linear, transform .3s;
@@ -141,7 +141,7 @@ li {
 
 .side-menu li:hover:before {
     opacity: 100%;
-    content: url("/src/img/whitearrow.svg");
+    content: url("./src/img/whitearrow.svg");
     display: inline-block;
     transform: translateX(-100%);
     height: 0.52vw;
@@ -225,7 +225,7 @@ li:hover {
 
 .btn::after {
     opacity: 100%;
-    content: url("/src/img/whitearrow.svg");
+    content: url("./src/img/whitearrow.svg");
     display: inline-block;
     transition: opacity .2s linear, transform .5s;
     margin-left: 0.50vw;
@@ -233,7 +233,7 @@ li:hover {
 
 .btn:hover:after {
     opacity: 100%;
-    content: url("/src/img/arrow.svg");
+    content: url("./src/img/arrow.svg");
     transform: translateX(150%);
     display: inline-block;
     transition: opacity .2s linear, transform .5s;
@@ -254,7 +254,7 @@ li:hover {
 
 .title::before {
     display: inline-block;
-    content: url("/src/img/whitearrow.svg");
+    content: url("./src/img/whitearrow.svg");
     transform: translateX(-100%);
 }
 
@@ -264,7 +264,7 @@ li:hover {
 
 .write__mesage::after{
     display: inline-block;
-    content: url("/src/img/whitearrow.svg");
+    content: url("./src/img/whitearrow.svg");
     transform: translateX(100%);
 }
 
