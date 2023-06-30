@@ -32,7 +32,7 @@ let itemsL = gsap.utils.toArray('.gallery-left .gallery__item')
 
 itemsL.forEach(item => {
   gsap.fromTo(item, {x: -150, opacity: 0}, {
-    opacity: 1, x:0,
+    opacity: 1, x:20,
     scrollTrigger: {
       trigger: item,
       start: '-700',
@@ -46,7 +46,7 @@ let itemsR = gsap.utils.toArray('.gallery-right .gallery__item')
 
 itemsR.forEach(item => {
   gsap.fromTo(item, {x: 150, opacity: 0}, {
-    opacity: 1, x:0,
+    opacity: 1, x:20,
     scrollTrigger: {
       trigger: item,
       start: '-500',
